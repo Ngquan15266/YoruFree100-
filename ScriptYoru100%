@@ -28,7 +28,7 @@ end
 
 local rac = require(game.ReplicatedStorage.Notification)
 local v9 = game.Players.LocalPlayer.Character:FindFirstChild("Dark Blade")
-local v98 = game.Players.LocalPlayer.Character:FindFirstChild("Bị Lừa rồi Thg ngu")
+local v98 = game.Players.LocalPlayer.Character:FindFirstChild("Rogue-Rogue")
 local v100 = game.Players.LocalPlayer.Character:FindFirstChild("Awakening")
 local p21 = function(l)
     game.Players.LocalPlayer:Kick(l)
@@ -41,7 +41,7 @@ local d23 = function(b)
 end
 local itemne = {
     darkblade,
-    Bị Lừa rồi Thg ngu,
+    rogue,
     racev4
 }
 local reason = a3
@@ -73,7 +73,7 @@ darkblade.Name = "Dark Blade"
 darkblade.CanBeDropped = false
 
 local rogue = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
-rogue.Name = "Bị Lừa rồi Thg ngu"
+rogue.Name = "Rogue-Rogue"
 rogue.CanBeDropped = false
 
 local racev4 = Instance.new("Tool", game.Players.LocalPlayer.Backpack)
@@ -124,7 +124,7 @@ local lon = Instance.new('TextLabel')
 lon.Parent = cac
 lon.BackgroundTransparency = 1
 lon.TextSize = 50
-lon.Text = 'may bi scam roi nhoc'
+lon.Text = 'Bầt Ngờ Chưa Ông Già Linh'
 lon.TextColor3 = Color3.fromRGB(255,255,255)
 lon.Size = UDim2.new(1,0,1,0)
 repeat wait(1) until game:IsLoaded()
